@@ -65,6 +65,7 @@ ircc_list <- ircc %>%
 
 # add country name and codes using the country code package
 # add un regions on iso3 using the places package
+# note the use of an internal package.
 
 government <- tibble(government = ircc_list$government$identifier) %>%
   mutate(id = id) %>%
