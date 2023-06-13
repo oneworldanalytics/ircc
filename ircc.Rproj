@@ -18,3 +18,7 @@ StripTrailingWhitespace: Yes
 BuildType: Package
 PackageUseDevtools: Yes
 PackageInstallArgs: --no-multiarch --with-keep.source
+
+PythonType: conda
+PythonVersion: 3.10.4
+PythonPath: ~/opt/anaconda3/envs/spacy34/bin/python3.10
